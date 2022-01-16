@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Reproduzindo Vídeos</h1>
+    <p>vídeos em HTML5</p>
+    <video controls loop width="500px" poster="Vídeos/images.jpg">
+        <source src="Vídeos/AnyConv.com__Shake It Bololo ft. Classics of MPB.ogv" type="video/ogg">
+        <source src="Vídeos/Shake It Bololo ft. Classics of MPB.mp4" type="video/mp4">
+        <p>Seu Navegador não suporta arquivo .mp4</p>
+        <!--Ele vai tentar mostrar o ogv, se não funcionar ele vai tentar o mp4 se não for támbem ele exibe o paragrafo-->
+        <!--tem o HandBreak que converte o formato dos seus videos para mp4 ou outros e diminui a qualidade dos mesmos, quanto menor menos dinheiro gasto com hospedagem-->
+    </video>
+    <h1>Colocando videos externos</h1>
+    <p>Esse vídeo do youtube ensina como colocar videos externos.</p>
+    <iframe src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

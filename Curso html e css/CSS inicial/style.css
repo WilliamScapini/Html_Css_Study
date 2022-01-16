@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(90deg, rgb(0, 247, 255), blue);
+    font-size: 15pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+#a1{
+    color: black;
+   width: min-content;
+    border: 3px solid black;
+    border-radius: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: calc(50%);
+}

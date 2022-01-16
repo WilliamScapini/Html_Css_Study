@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SH</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16pt;
+        }
+        h1{
+            background-color: rgb(160, 154, 154);
+            border: 10px solid darkcyan;/*isso e abaixo são uma shorthand(mãozinha) */
+            padding: 10px;
+            margin: 30px auto 30px auto;
+            width: 300px;
+            height: 100px;
+          
+        }
+        span{
+            border: 10px solid rgb(66, 5, 136);
+            outline: 2px dashed black;
+            padding: 5px;
+            margin: 5px;
+        }
+        h1:hover{
+            background-color: darkcyan;
+            border: 10px solid rgb(160, 154, 154);
+            outline: 2px dashed black;
+        }
+        h1:active{
+            outline: 6px dashed black;
+        }
+        span:active{
+            border: 10px solid rgb(5, 184, 255);
+            background-color: rgb(66, 5, 136);
+            color: white;
+            outline: 4px dashed black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>CAIXA box Level</h1>
+    <p>paragrafos são box leve porem <span>spans são inline leve</span>
+    come with me</p>
+</body>
+</html>
